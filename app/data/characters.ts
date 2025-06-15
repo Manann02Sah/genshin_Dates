@@ -221,7 +221,8 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Mondstadt",
     birthday: { month: 8, day: 31 },
     bio: 'A mysterious young astrologer who proclaims herself to be "Astrologist Mona Megistus," and who possesses abilities to match the title. Erudite, but prideful.',
-    image: "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Character_Mona_Card.png",
+    image: "https://www.zerochan.net/Lisa+Minci",
+    youtubeLink:"https://www.youtube.com/watch?v=92YOcsgAOr8",
   },
   {
     id: "raiden",
