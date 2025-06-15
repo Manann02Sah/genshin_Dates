@@ -352,7 +352,7 @@ export const genshinCharacters: GenshinCharacter[] = [
   region: "Fontaine",
   birthday: { month: 12, day: 9 },
   bio: "A mysterious and powerful swordswoman from the Abyss who once trained Tartaglia (Childe). Little is known about her, but her strength and origins continue to intrigue even the Fatui.",
-  image: "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Character_Skirk_Card.png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRid_7fBTmf_nUhRjVCalXr6rcwqk4jgmT-dg&s",
   youtubeLink: "https://www.youtube.com/watch?v=injdhkGRoCs&t=3s",
     },
     {
@@ -387,7 +387,7 @@ export const genshinCharacters: GenshinCharacter[] = [
   region: "Fontaine",
   birthday: { month: 10, day: 13 },
   bio: "The Hydro Archon and the God of Justice, Furina is known for her theatrical personality and dramatic flair. Despite her flamboyant nature, she hides a complex inner world burdened by duty and expectations.",
-  image: "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Character_Furina_Card.png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtKPxt-RFxiFohL1Z4MF6KNyaHlx8wuMwFLQ&s",
   youtubeLink: "https://www.youtube.com/watch?v=EN79SfbcvIE",
   },
   {
