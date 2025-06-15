@@ -210,8 +210,7 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Mondstadt",
     birthday: { month: 6, day: 9 },
     bio: "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHYn66nF0dXiJUp-DGenRiFljQ_8ej6HRG2g&s",
-    youtubeLink:"https://www.youtube.com/watch?v=92YOcsgAOr8",
+    image: "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Character_Lisa_Card.png",
   },
   {
     id: "mona",
@@ -222,8 +221,7 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Mondstadt",
     birthday: { month: 8, day: 31 },
     bio: 'A mysterious young astrologer who proclaims herself to be "Astrologist Mona Megistus," and who possesses abilities to match the title. Erudite, but prideful.',
-    image: "https://www.zerochan.net/Lisa+Minci",
-    youtubeLink:"https://www.youtube.com/watch?v=92YOcsgAOr8",
+    image: "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Character_Mona_Card.png",
   },
   {
     id: "raiden",

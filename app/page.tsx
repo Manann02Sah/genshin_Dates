@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Heart, Star, MessageCircle, CalendarIcon, Youtube } from "lucide-react"
+import { Heart, Star, MessageCircle, CalendarIcon, Youtube, X } from "lucide-react"
 import Image from "next/image"
 import { genshinCharacters, type GenshinCharacter } from "./data/characters"
 import { DiscussionForum } from "./components/DiscussionForum"
@@ -17,6 +17,7 @@ export default function GenshinBirthdayCalendar() {
   const [selectedCharacter, setSelectedCharacter] = useState<GenshinCharacter | null>(null)
   const [favorites, setFavorites] = useState<string[]>([])
   const [view, setView] = useState<"calendar" | "all" | "favorites">("calendar")
+  const [showVideo, setShowVideo] = useState(false)
 
   useEffect(() => {
     const savedFavorites = localStorage.getItem("genshin-favorites")
@@ -49,6 +50,12 @@ export default function GenshinBirthdayCalendar() {
     return genshinCharacters.filter((char) => char.birthday.month === month)
   }
 
+  const getYouTubeEmbedUrl = (url: string) => {
+    if (!url) return ""
+    const videoId = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/)
+    return videoId ? `https://www.youtube.com/embed/${videoId[1]}` : ""
+  }
+
   const currentMonth = selectedDate ? selectedDate.getMonth() + 1 : new Date().getMonth() + 1
   const monthCharacters = getCharactersForMonth(currentMonth)
   const todaysBirthdays = getTodaysBirthdays()
@@ -56,16 +63,9 @@ export default function GenshinBirthdayCalendar() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 relative">
-      {/* Add animated background elements */}
-      <div className="absolute inset-0 opacity-20">
+      {/* Simplified background */}
+      <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-gradient-to-br from-amber-500/5 via-transparent to-blue-500/5" />
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fillRule='evenodd'%3E%3Cg fill='%23fbbf24' fillOpacity='0.05'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-            backgroundSize: "60px 60px",
-          }}
-        />
       </div>
 
       <div className="container mx-auto px-4 py-8 relative z-10">
@@ -136,41 +136,21 @@ export default function GenshinBirthdayCalendar() {
                     <CalendarIcon className="h-6 w-6" />
                     Birthday Calendar
                   </CardTitle>
-                  <p className="text-amber-100/80 text-sm">Click on golden dates to see birthdays! ✨</p>
+                  <p className="text-amber-100/80 text-sm">Golden dates have birthdays! 🎂</p>
                 </CardHeader>
-                <CardContent className="p-6">
+                <CardContent className="p-6 flex justify-center">
                   <Calendar
                     mode="single"
                     selected={selectedDate}
                     onSelect={setSelectedDate}
-                    className="rounded-md border-blue-700 bg-white/10 backdrop-blur-sm"
+                    className="rounded-lg bg-white/5 backdrop-blur-sm p-4 border border-blue-700/50"
+                    showOutsideDays={false}
+                    fixedWeeks={true}
                     modifiers={{
                       birthday: (date) => getCharactersForDate(date).length > 0,
-                      today: (date) => {
-                        const today = new Date()
-                        return date.toDateString() === today.toDateString()
-                      },
-                    }}
-                    modifiersStyles={{
-                      birthday: {
-                        backgroundColor: "rgb(251 191 36)",
-                        color: "rgb(120 53 15)",
-                        fontWeight: "bold",
-                        border: "2px solid rgb(245 158 11)",
-                        borderRadius: "8px",
-                        transform: "scale(1.1)",
-                        boxShadow: "0 4px 8px rgba(251, 191, 36, 0.3)",
-                      },
-                      today: {
-                        backgroundColor: "rgb(59 130 246)",
-                        color: "white",
-                        fontWeight: "bold",
-                        border: "2px solid rgb(37 99 235)",
-                        borderRadius: "8px",
-                      },
                     }}
                     modifiersClassNames={{
-                      birthday: "animate-pulse",
+                      birthday: "birthday-date",
                     }}
                   />
                 </CardContent>
@@ -226,9 +206,12 @@ export default function GenshinBirthdayCalendar() {
                       ))}
                     </div>
                   ) : (
-                    <p className="text-blue-300 text-center py-8">
-                      {selectedDate ? "No birthdays on this date" : "Select a date to see birthdays"}
-                    </p>
+                    <div className="text-center py-8">
+                      <CalendarIcon className="h-12 w-12 text-blue-400 mx-auto mb-4 opacity-50" />
+                      <p className="text-blue-300">
+                        {selectedDate ? "No birthdays on this date" : "Select a date to see birthdays"}
+                      </p>
+                    </div>
                   )}
                 </CardContent>
               </Card>
@@ -321,27 +304,80 @@ export default function GenshinBirthdayCalendar() {
 
         {/* Character Detail Modal */}
         <Dialog open={!!selectedCharacter} onOpenChange={() => setSelectedCharacter(null)}>
-          <DialogContent className="max-w-2xl bg-blue-900 border-amber-400">
+          <DialogContent className="max-w-4xl bg-blue-900 border-amber-400 max-h-[90vh] overflow-y-auto">
             {selectedCharacter && (
               <>
                 <DialogHeader>
                   <DialogTitle className="text-amber-300 text-2xl">{selectedCharacter.name}</DialogTitle>
                 </DialogHeader>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <Image
-                      src={selectedCharacter.image || "/placeholder.svg"}
-                      alt={selectedCharacter.name}
-                      width={300}
-                      height={400}
-                      className="rounded-lg border-2 border-amber-400 w-full"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement
-                        target.src = `/placeholder.svg?height=400&width=300&text=${encodeURIComponent(selectedCharacter.name)}`
-                      }}
-                    />
+
+                {/* Video Section */}
+                {selectedCharacter.youtubeLink && (
+                  <div className="mb-6">
+                    {!showVideo ? (
+                      <div className="relative">
+                        <Image
+                          src={selectedCharacter.image || "/placeholder.svg"}
+                          alt={selectedCharacter.name}
+                          width={400}
+                          height={225}
+                          className="rounded-lg border-2 border-amber-400 w-full h-48 object-cover"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement
+                            target.src = `/placeholder.svg?height=225&width=400&text=${encodeURIComponent(selectedCharacter.name)}`
+                          }}
+                        />
+                        <div className="absolute inset-0 bg-black/50 flex items-center justify-center rounded-lg">
+                          <Button
+                            onClick={() => setShowVideo(true)}
+                            className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 text-lg"
+                          >
+                            <Youtube className="h-6 w-6 mr-2" />
+                            Watch Character Teaser
+                          </Button>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="relative">
+                        <Button
+                          onClick={() => setShowVideo(false)}
+                          className="absolute top-2 right-2 z-10 bg-black/70 hover:bg-black/90 text-white p-2"
+                          size="sm"
+                        >
+                          <X className="h-4 w-4" />
+                        </Button>
+                        <iframe
+                          src={getYouTubeEmbedUrl(selectedCharacter.youtubeLink)}
+                          title={`${selectedCharacter.name} Character Teaser`}
+                          className="w-full h-64 md:h-80 rounded-lg border-2 border-amber-400"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        />
+                      </div>
+                    )}
                   </div>
-                  <div className="space-y-4">
+                )}
+
+                <div className="grid md:grid-cols-2 gap-6">
+                  {/* Character Image (only show if no video or video not playing) */}
+                  {(!selectedCharacter.youtubeLink || !showVideo) && (
+                    <div>
+                      <Image
+                        src={selectedCharacter.image || "/placeholder.svg"}
+                        alt={selectedCharacter.name}
+                        width={300}
+                        height={400}
+                        className="rounded-lg border-2 border-amber-400 w-full"
+                        onError={(e) => {
+                          const target = e.target as HTMLImageElement
+                          target.src = `/placeholder.svg?height=400&width=300&text=${encodeURIComponent(selectedCharacter.name)}`
+                        }}
+                      />
+                    </div>
+                  )}
+
+                  {/* Character Details */}
+                  <div className={`space-y-4 ${showVideo && selectedCharacter.youtubeLink ? "md:col-span-2" : ""}`}>
                     <div>
                       <h3 className="text-amber-200 font-semibold mb-2">Title</h3>
                       <p className="text-blue-200">{selectedCharacter.title}</p>
@@ -371,18 +407,6 @@ export default function GenshinBirthdayCalendar() {
                       <h3 className="text-amber-200 font-semibold mb-2">Bio</h3>
                       <p className="text-blue-200 text-sm leading-relaxed">{selectedCharacter.bio}</p>
                     </div>
-                    {selectedCharacter.youtubeLink && (
-                      <div>
-                        <Button
-                          variant="outline"
-                          className="border-red-500 text-red-400 hover:bg-red-500 hover:text-white"
-                          onClick={() => window.open(selectedCharacter.youtubeLink, "_blank")}
-                        >
-                          <Youtube className="h-4 w-4 mr-2" />
-                          Watch Character Teaser
-                        </Button>
-                      </div>
-                    )}
                     <div className="flex gap-2">
                       <Button
                         variant={favorites.includes(selectedCharacter.id) ? "default" : "outline"}
@@ -450,6 +474,14 @@ function CharacterCard({
           >
             <Heart className={`h-4 w-4 ${isFavorite ? "fill-red-500 text-red-500" : "text-white"}`} />
           </Button>
+          {character.youtubeLink && (
+            <div className="absolute bottom-2 left-2">
+              <Badge className="bg-red-600 text-white text-xs">
+                <Youtube className="h-3 w-3 mr-1" />
+                Video
+              </Badge>
+            </div>
+          )}
         </div>
         <div className="mt-3 space-y-2">
           <h3 className="font-semibold text-amber-200 group-hover:text-amber-100">{character.name}</h3>
