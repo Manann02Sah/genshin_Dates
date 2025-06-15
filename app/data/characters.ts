@@ -210,7 +210,8 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Mondstadt",
     birthday: { month: 6, day: 9 },
     bio: "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",
-    image: "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Character_Lisa_Card.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHYn66nF0dXiJUp-DGenRiFljQ_8ej6HRG2g&s",
+    youtubeLink:"https://www.youtube.com/watch?v=92YOcsgAOr8",
   },
   {
     id: "mona",
@@ -221,7 +222,7 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Mondstadt",
     birthday: { month: 8, day: 31 },
     bio: 'A mysterious young astrologer who proclaims herself to be "Astrologist Mona Megistus," and who possesses abilities to match the title. Erudite, but prideful.',
-    image: "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Character_Mona_Card.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHYn66nF0dXiJUp-DGenRiFljQ_8ej6HRG2g&s",
   },
   {
     id: "raiden",
@@ -232,8 +233,8 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Inazuma",
     birthday: { month: 6, day: 26 },
     bio: 'Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity. The true name of the Raiden Shogun is "Raiden Ei."',
-    image: "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/Character_Raiden_Shogun_Card.png",
-    youtubeLink: "https://www.youtube.com/watch?v=TmaranN4tPE",
+    image: "https://www.cyberpowerpc.com/blog/w/wp-content/uploads/2021/09/genshin-impact-raiden-shogun.jpg",
+    youtubeLink: "https://www.youtube.com/watch?v=mvrW4aKwAXw",
   },
   {
     id: "venti",
