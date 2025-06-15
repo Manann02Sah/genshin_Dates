@@ -192,7 +192,7 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Mondstadt",
     birthday: { month: 7, day: 27 },
     bio: "An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight. She is Alice's daughter and one of Albedo's most trusted assistants.",
-    image: "https://static.wikia.nocookie.net/gensin-impact/images/c/c5/Character_Klee_Card.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3hNH1N_8jA65BDULSf666U57IplcTRj0snQ&s",
     youtubeLink: "https://www.youtube.com/watch?v=C_duDk5e8yU",
   },
   {
@@ -384,7 +384,8 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Sumeru",
     birthday: { month: 5, day: 8 },
     bio: "A trainee forest ranger active in Avidya Forest. Behind her enthusiastic exterior hides a slightly introverted personality.",
-    image: "https://static.wikia.nocookie.net/gensin-impact/images/c/c0/Character_Collei_Card.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlzL3YSev0-8x0-tDwYcnWhDmTTacMpzii7w&s",
+    youtubeLink: "https://www.youtube.com/watch?v=J-nGm9BmKtE",
   },
   {
   id: "furina",
