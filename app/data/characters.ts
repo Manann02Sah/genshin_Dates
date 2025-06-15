@@ -140,8 +140,8 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Liyue",
     birthday: { month: 7, day: 15 },
     bio: "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age. Despite her position, she's quite the prankster and loves to spook people.",
-    image: "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Character_Hu_Tao_Card.png",
-    youtubeLink: "https://www.youtube.com/watch?v=Wv-Tr-sSoCs",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRDrHo8-1EJIInblGuuEeHbzpRIkBUzTt1vg&s",
+    youtubeLink: "https://www.youtube.com/watch?v=dc3eD6C6Gbk",
   },
   {
     id: "jean",
@@ -245,7 +245,8 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Mondstadt",
     birthday: { month: 6, day: 16 },
     bio: "A bard that seems to have arrived on some unknown wind — sometimes sings songs as old as the hills, and other times sings poems fresh and new. Likes apples and lively atmospheres, but is not a fan of cheese or anything sticky.",
-    image: "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Venti_Card.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuaYwoj116nTa3ImLyJhYCVZP2yT3kGi3wTQ&s",
+    youtubeLink: "https://www.youtube.com/watch?v=TSsWsCdiiPI",
   },
   {
     id: "xiao",
@@ -280,8 +281,8 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Inazuma",
     birthday: { month: 6, day: 27 },
     bio: "Lady Guuji of the Grand Narukami Shrine also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.",
-    image: "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Character_Yae_Miko_Card.png",
-    youtubeLink: "https://www.youtube.com/watch?v=LZnO6wR_jSs",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeFYS5TTCOeVDypNvuTvETTd1vLHk50G7buw&s",
+    youtubeLink: "https://www.youtube.com/watch?v=4yFiBhNIWYo",
   },
   {
     id: "itto",
@@ -292,8 +293,8 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Inazuma",
     birthday: { month: 6, day: 1 },
     bio: "The first and greatest head of the Arataki Gang, famed throughout Inazuma City's Hanamizaka... Wait, what? You've never heard of them? Are you trying to be funny here?",
-    image: "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Arataki_Itto_Card.png",
-    youtubeLink: "https://www.youtube.com/watch?v=_6ixWvaZGdw",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStS0CF8JEY5nq_TQWmGDXiAVi_IvtmCZzJBA&s",
+    youtubeLink: "https://www.youtube.com/watch?v=iXeJ94AFZDw",
   },
   {
     id: "gorou",
