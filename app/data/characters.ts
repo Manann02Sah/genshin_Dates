@@ -210,7 +210,8 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Mondstadt",
     birthday: { month: 6, day: 9 },
     bio: "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",
-    image: "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Character_Lisa_Card.png",
+    image: "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Lisa_Card.png/revision/latest?cb=20220725205045",
+    youtubeLink:"https://www.youtube.com/watch?v=92YOcsgAOr8",
   },
   {
     id: "mona",
