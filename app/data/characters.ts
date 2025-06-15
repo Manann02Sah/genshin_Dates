@@ -384,7 +384,7 @@ export const genshinCharacters: GenshinCharacter[] = [
     region: "Sumeru",
     birthday: { month: 5, day: 8 },
     bio: "A trainee forest ranger active in Avidya Forest. Behind her enthusiastic exterior hides a slightly introverted personality.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlzL3YSev0-8x0-tDwYcnWhDmTTacMpzii7w&s",
+    image: "https://i.ytimg.com/vi/J-nGm9BmKtE/sddefault.jpg",
     youtubeLink: "https://www.youtube.com/watch?v=J-nGm9BmKtE",
   },
   {
