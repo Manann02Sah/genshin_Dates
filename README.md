@@ -70,7 +70,7 @@ npm run dev
 Visit http://localhost:3000 to view the app.
 
 
-🔧 Future Improvements
+## 🔧 Future Improvements
  Filter by element or weapon type
 
  Highlight today’s birthday
@@ -81,7 +81,7 @@ Visit http://localhost:3000 to view the app.
 
  Integrate with Genshin APIs (if available)
 
-🤝 Contributing
+## 🤝 Contributing
 Pull requests and suggestions are welcome! Feel free to fork this repo and improve the project.
 
 
