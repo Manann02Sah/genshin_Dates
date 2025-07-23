@@ -31,7 +31,7 @@ A simple and elegant web app that displays **Genshin Impact character birthdays*
 
 
 ---
-
+``
 ## 📁 Project Structure (Sample)
 ├── app/ # App router pages
 │ └── characters.ts # Renders character calendar and info
@@ -48,7 +48,7 @@ A simple and elegant web app that displays **Genshin Impact character birthdays*
 ├── pnpm-lock.yaml # Lockfile for pnpm
 └── README.md # This file
 
-
+``
 ## 🚀 Getting Started
 
 To run the project locally:
