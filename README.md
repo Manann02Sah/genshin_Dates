@@ -33,4 +33,55 @@ A simple and elegant web app that displays **Genshin Impact character birthdays*
 ---
 
 ## 📁 Project Structure (Sample)
+├── app/ # App router pages
+│ └── characters.ts # Renders character calendar and info
+├── components/ # Reusable UI components
+├── hooks/ # Custom React hooks
+├── lib/ # Utility functions
+├── public/ # Static assets (images/icons)
+├── styles/ # Tailwind/global styles
+├── components.json # Character/component data
+├── next.config.mjs # Next.js config
+├── tailwind.config.ts # Tailwind CSS config
+├── tsconfig.json # TypeScript config
+├── package.json # Project metadata
+├── pnpm-lock.yaml # Lockfile for pnpm
+└── README.md # This file
+
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/genshin-birthday-calendar.git
+cd genshin-birthday-calendar
+
+# 2. Install dependencies
+pnpm install
+# or use npm if you prefer
+npm install
+
+# 3. Run the development server
+pnpm dev
+# or
+npm run dev
+Visit http://localhost:3000 to view the app.
+
+
+🔧 Future Improvements
+ Filter by element or weapon type
+
+ Highlight today’s birthday
+
+ Add dark mode
+
+ Multi-language support (EN/JP/CN)
+
+ Integrate with Genshin APIs (if available)
+
+🤝 Contributing
+Pull requests and suggestions are welcome! Feel free to fork this repo and improve the project.
+
 
