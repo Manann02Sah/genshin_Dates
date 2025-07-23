@@ -30,8 +30,9 @@ A simple and elegant web app that displays **Genshin Impact character birthdays*
 <img width="1556" height="427" alt="image" src="https://github.com/user-attachments/assets/ff3421ba-1da4-4af6-b85f-ec56e3869109" />
 
 
-```
+
 ## 📁 Project Structure (Sample)
+```
 ├── app/ # App router pages
 │ └── characters.ts # Renders character calendar and info
 ├── components/ # Reusable UI components
