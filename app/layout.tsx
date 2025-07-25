@@ -5,12 +5,14 @@ import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
+
 export const metadata: Metadata = {
   title: "Genshin Impact Birthday Calendar",
   description: "Celebrate your favorite Genshin Impact characters birthdays with fellow Travelers!",
   keywords: "Genshin Impact, birthday, calendar, characters, anime, game",
     generator: 'v0.dev'
 }
+
 
 export default function RootLayout({
   children,
