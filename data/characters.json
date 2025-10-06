@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "raiden-shogun",
+    "name": "Raiden Shogun",
+    "title": "Plane of Euthymia",
+    "rarity": 5,
+    "element": "Electro",
+    "weaponType": "Polearm",
+    "region": "Inazuma",
+    "roleTags": ["On-field DPS", "Battery", "Burst DPS"],
+    "description": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.",
+    "image": "https://genshin.jmp.blue/characters/raiden/portrait",
+    "bestBuild": {
+      "weapons": ["engulfing-lightning", "the-catch", "staff-of-homa"],
+      "artifacts": ["emblem-of-severed-fate"],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Electro DMG%",
+        "circlet": "CRIT Rate / CRIT DMG"
+      },
+      "substatsPriority": ["Energy Recharge (250%+)", "CRIT Rate/DMG", "ATK%"]
+    },
+    "teams": ["raiden-national", "raiden-hypercarry"],
+    "updatedAt": "2025-10-01"
+  },
+  {
+    "slug": "hu-tao",
+    "name": "Hu Tao",
+    "title": "Fragrance in Thaw",
+    "rarity": 5,
+    "element": "Pyro",
+    "weaponType": "Polearm",
+    "region": "Liyue",
+    "roleTags": ["Main DPS", "Charged Attack DPS"],
+    "description": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
+    "image": "https://genshin.jmp.blue/characters/hu-tao/portrait",
+    "bestBuild": {
+      "weapons": ["staff-of-homa", "dragons-bane", "deathmatch"],
+      "artifacts": ["crimson-witch-of-flames", "shimenawas-reminiscence"],
+      "mainStats": {
+        "sands": "HP%",
+        "goblet": "Pyro DMG%",
+        "circlet": "CRIT Rate / CRIT DMG"
+      },
+      "substatsPriority": ["CRIT Rate/DMG", "HP%", "Elemental Mastery"]
+    },
+    "teams": ["hu-tao-double-geo", "vape-hu-tao"],
+    "updatedAt": "2025-10-01"
+  },
+  {
+    "slug": "kazuha",
+    "name": "Kaedehara Kazuha",
+    "title": "Scarlet Leaves Pursue Wild Waves",
+    "rarity": 5,
+    "element": "Anemo",
+    "weaponType": "Sword",
+    "region": "Inazuma",
+    "roleTags": ["Support", "Sub DPS", "Crowd Control"],
+    "description": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet.",
+    "image": "https://genshin.jmp.blue/characters/kazuha/portrait",
+    "bestBuild": {
+      "weapons": ["freedom-sworn", "iron-sting", "sacrificial-sword"],
+      "artifacts": ["viridescent-venerer"],
+      "mainStats": {
+        "sands": "Elemental Mastery",
+        "goblet": "Elemental Mastery",
+        "circlet": "Elemental Mastery"
+      },
+      "substatsPriority": ["Elemental Mastery", "Energy Recharge", "ATK%"]
+    },
+    "teams": ["international-childe", "kazuha-hyper-bloom"],
+    "updatedAt": "2025-10-01"
+  },
+  {
+    "slug": "zhongli",
+    "name": "Zhongli",
+    "title": "Vago Mundo",
+    "rarity": 5,
+    "element": "Geo",
+    "weaponType": "Polearm",
+    "region": "Liyue",
+    "roleTags": ["Support", "Shielder", "Sub DPS"],
+    "description": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+    "image": "https://genshin.jmp.blue/characters/zhongli/portrait",
+    "bestBuild": {
+      "weapons": ["staff-of-homa", "black-tassel", "favonius-lance"],
+      "artifacts": ["tenacity-of-the-millelith", "noblesse-oblige"],
+      "mainStats": {
+        "sands": "HP%",
+        "goblet": "HP%",
+        "circlet": "HP%"
+      },
+      "substatsPriority": ["HP%", "Energy Recharge", "CRIT Rate/DMG"]
+    },
+    "teams": ["hu-tao-double-geo", "itto-mono-geo"],
+    "updatedAt": "2025-10-01"
+  },
+  {
+    "slug": "bennett",
+    "name": "Bennett",
+    "title": "Trial by Fire",
+    "rarity": 4,
+    "element": "Pyro",
+    "weaponType": "Sword",
+    "region": "Mondstadt",
+    "roleTags": ["Support", "Healer", "Buffer"],
+    "description": "A righteous and good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+    "image": "https://genshin.jmp.blue/characters/bennett/portrait",
+    "bestBuild": {
+      "weapons": ["mistsplitter-reforged", "aquila-favonia", "prototype-rancour"],
+      "artifacts": ["noblesse-oblige"],
+      "mainStats": {
+        "sands": "Energy Recharge",
+        "goblet": "HP%",
+        "circlet": "HP%"
+      },
+      "substatsPriority": ["Energy Recharge", "HP%", "ATK%"]
+    },
+    "teams": ["raiden-national", "international-childe"],
+    "updatedAt": "2025-10-01"
+  },
+  {
+    "slug": "xingqiu",
+    "name": "Xingqiu",
+    "title": "Juvenile Galant",
+    "rarity": 4,
+    "element": "Hydro",
+    "weaponType": "Sword",
+    "region": "Liyue",
+    "roleTags": ["Support", "Sub DPS", "Hydro Applicator"],
+    "description": "The second son of Liyue Harbor's Feiyun Commerce Guild.",
+    "image": "https://genshin.jmp.blue/characters/xingqiu/portrait",
+    "bestBuild": {
+      "weapons": ["sacrificial-sword", "favonius-sword"],
+      "artifacts": ["emblem-of-severed-fate", "noblesse-oblige"],
+      "mainStats": {
+        "sands": "ATK% / Energy Recharge",
+        "goblet": "Hydro DMG%",
+        "circlet": "CRIT Rate / CRIT DMG"
+      },
+      "substatsPriority": ["Energy Recharge", "CRIT Rate/DMG", "ATK%"]
+    },
+    "teams": ["raiden-national", "vape-hu-tao"],
+    "updatedAt": "2025-10-01"
+  }
+]

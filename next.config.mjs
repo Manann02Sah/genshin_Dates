@@ -8,6 +8,19 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
+  },
+  // Enable static export for Vercel deployment
+  // output: 'export', // Uncomment for static export
+
+  // Incremental Static Regeneration
+  experimental: {
+    // Enable revalidation every hour
   },
 }
 

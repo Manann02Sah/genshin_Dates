@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "raiden-shogun-complete-guide",
+    "title": "Raiden Shogun Complete Build Guide",
+    "category": "Character Guide",
+    "author": "GenshinGuide Team",
+    "publishedAt": "2025-09-15",
+    "updatedAt": "2025-10-01",
+    "readTime": "8 min",
+    "tags": ["Character", "Electro", "DPS", "Support"],
+    "thumbnail": "https://genshin.jmp.blue/characters/raiden-shogun/portrait",
+    "summary": "Complete guide to building and playing Raiden Shogun, including best weapons, artifacts, teams, and gameplay tips.",
+    "content": "# Raiden Shogun Complete Guide\n\n## Overview\n\nRaiden Shogun, also known as Ei, is a 5-star Electro Polearm character from Inazuma. She excels as both a main DPS during her burst and as a support character who provides energy regeneration for the team.\n\n## Best Weapons\n\n### 5-Star Options\n\n1. **Engulfing Lightning** - Her signature weapon and best-in-slot option\n   - Provides massive Energy Recharge and ATK bonus\n   - Synergizes perfectly with her kit\n\n2. **Staff of Homa** - Excellent alternative\n   - High CRIT DMG and HP-based ATK bonus\n   - Great for hybrid builds\n\n### 4-Star Options\n\n1. **The Catch (R5)** - Best F2P option\n   - Free from fishing in Inazuma\n   - Increases Burst DMG and CRIT Rate\n   - Highly recommended for all players\n\n## Best Artifacts\n\n**Emblem of Severed Fate (4-piece)**\n- Best overall set for Raiden\n- Mainstat priority: ATK% / Electro DMG% / CRIT\n- Substats: Energy Recharge (aim for 250-270%), CRIT Rate/DMG, ATK%\n\n## Best Teams\n\n### Raiden National\n- Raiden Shogun / Xiangling / Xingqiu / Bennett\n- One of the strongest teams in the game\n- Easy to play, high damage output\n\n### Raiden Hypercarry\n- Raiden Shogun / Sara / Kazuha / Bennett\n- Maximizes Raiden's personal damage\n- Requires good investment\n\n## Gameplay Tips\n\n1. Use Raiden's Elemental Skill before switching to teammates\n2. Build energy on teammates, then use their bursts\n3. Switch to Raiden and use her burst when ready\n4. During burst, focus on Normal Attacks (not Charged)\n5. Repeat the rotation\n\n## Talent Priority\n\nElemental Burst > Elemental Skill > Normal Attack\n\n## Constellation Value\n\nC0 is perfectly viable. C2 is her biggest power spike (Ignores 60% of DEF). C3 is also valuable."
+  },
+  {
+    "slug": "beginners-team-building-guide",
+    "title": "Beginner's Guide to Team Building",
+    "category": "General Guide",
+    "author": "GenshinGuide Team",
+    "publishedAt": "2025-09-20",
+    "updatedAt": "2025-10-01",
+    "readTime": "10 min",
+    "tags": ["Beginner", "Team Building", "Guide"],
+    "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400",
+    "summary": "Learn the fundamentals of team building in Genshin Impact, including roles, elemental reactions, and synergies.",
+    "content": "# Beginner's Guide to Team Building\n\n## Understanding Team Roles\n\nEvery successful team in Genshin Impact needs a balance of different roles:\n\n### 1. Main DPS\n- Character that stays on-field the most\n- Deals majority of damage\n- Examples: Hu Tao, Itto, Ayaka\n\n### 2. Sub DPS\n- Provides off-field damage\n- Supports the main DPS\n- Examples: Xingqiu, Fischl, Xiangling\n\n### 3. Support\n- Provides buffs, healing, or shields\n- Enables team to survive and deal more damage\n- Examples: Bennett, Zhongli, Kazuha\n\n## Elemental Reactions\n\nUnderstanding reactions is key to team building:\n\n### Amplifying Reactions\n- **Vaporize** (Hydro + Pyro): 1.5x or 2x multiplier\n- **Melt** (Cryo + Pyro): 1.5x or 2x multiplier\n\n### Transformative Reactions\n- **Overloaded** (Pyro + Electro): AoE Pyro damage\n- **Electro-Charged** (Electro + Hydro): Chain lightning\n- **Superconduct** (Electro + Cryo): Reduces Physical RES\n- **Swirl** (Anemo + Element): Spreads element\n\n## Sample F2P Team\n\n**National Team**\n- Xiangling / Xingqiu / Bennett / Flex (Chongyun/Sucrose)\n- Uses only 4-star characters\n- Very powerful and accessible\n- Great for all content\n\n## Tips for New Players\n\n1. Focus on building one team at a time\n2. Invest in supports - they work in multiple teams\n3. Don't spread resources too thin\n4. Level weapons and talents, not just characters\n5. Artifacts become important at AR45+\n\n## Common Mistakes\n\n- Building too many DPS characters\n- Ignoring elemental reactions\n- Not using supports effectively\n- Neglecting weapon upgrades"
+  },
+  {
+    "slug": "artifact-farming-optimization",
+    "title": "Artifact Farming Optimization Guide",
+    "category": "General Guide",
+    "author": "GenshinGuide Team",
+    "publishedAt": "2025-09-25",
+    "updatedAt": "2025-10-01",
+    "readTime": "6 min",
+    "tags": ["Artifacts", "Farming", "Optimization"],
+    "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400",
+    "summary": "Maximize your resin efficiency with this comprehensive artifact farming guide.",
+    "content": "# Artifact Farming Optimization Guide\n\n## When to Start Farming\n\n**Wait until AR45** before seriously farming artifacts. At AR45, you unlock the highest difficulty domains that guarantee a 5-star artifact per run.\n\n## Domain Priority\n\n### Top Priority Domains\n\n1. **Momiji-Dyed Court** (Inazuma)\n   - Emblem of Severed Fate\n   - Shimenawa's Reminiscence\n   - Both sets are universally useful\n\n2. **Valley of Remembrance** (Mondstadt)\n   - Viridescent Venerer\n   - Essential for Anemo supports\n\n3. **Hidden Palace of Zhou Formula** (Liyue)\n   - Crimson Witch of Flames\n   - Best for Pyro DPS\n\n## Main Stat Priority\n\n### Sands (3rd slot)\n- DPS: ATK%\n- Support: Energy Recharge or Elemental Mastery\n- HP Scalers: HP%\n\n### Goblet (4th slot)\n- Elemental DMG% for most DPS\n- ATK% acceptable if no DMG% available\n\n### Circlet (5th slot)\n- CRIT Rate or CRIT DMG for DPS\n- Healing Bonus for healers\n\n## Substat Priority\n\n**For DPS:**\n1. CRIT Rate / CRIT DMG\n2. ATK%\n3. Energy Recharge\n4. Elemental Mastery\n\n**Aim for 1:2 ratio** (CRIT Rate : CRIT DMG)\nExample: 70% CRIT Rate, 140% CRIT DMG\n\n## Resin Efficiency Tips\n\n1. Use condensed resin (40 resin = 2 runs worth)\n2. Farm domains that give 2 useful sets\n3. Don't chase perfect artifacts\n4. Know when 'good enough' is enough\n5. Use Strongbox for off-set pieces\n\n## Strongbox System\n\nConvert unwanted 5-star artifacts into:\n- Noblesse Oblige\n- Gladiator's Finale\n- Wanderer's Troupe\n- Bloodstained Chivalry\n\n## What Makes a 'Good' Artifact?\n\n- Correct main stat\n- 2-3 good substats\n- Substats roll into CRIT stats\n\nDon't expect perfect artifacts - they're extremely rare!"
+  },
+  {
+    "slug": "spiral-abyss-floor-12-guide",
+    "title": "Spiral Abyss Floor 12 Guide",
+    "category": "Combat Guide",
+    "author": "GenshinGuide Team",
+    "publishedAt": "2025-10-01",
+    "updatedAt": "2025-10-01",
+    "readTime": "12 min",
+    "tags": ["Spiral Abyss", "Endgame", "Combat"],
+    "thumbnail": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=400",
+    "summary": "Strategies and team recommendations for clearing the hardest floors of Spiral Abyss.",
+    "content": "# Spiral Abyss Floor 12 Guide\n\n## General Tips\n\n### Before You Start\n- Ensure your main DPS characters are level 80/90\n- Weapons should be level 90\n- Talents at least 8/8/8 for main DPS\n- Artifacts with correct main stats (+16 minimum)\n\n### Team Building\n\nYou need **two teams** for Abyss. Recommendations:\n\n**Team 1: National Variants**\n- Raiden National\n- International (Childe)\n- Rational\n\n**Team 2: Freeze or Hypercarry**\n- Ayaka Freeze\n- Ganyu Freeze\n- Hu Tao Vape\n- Itto Mono Geo\n\n## Floor 12 Strategy\n\n### Chamber 1\n**Enemies:** Multiple hilichurls and samachurls\n\n**Strategy:**\n- Bring AoE damage\n- Group enemies with Anemo CC\n- Focus ranged enemies first\n\n### Chamber 2\n**Enemies:** Ruin enemies\n\n**Strategy:**\n- High single-target damage\n- Shield breakers if needed\n- Save bursts for this chamber\n\n### Chamber 3\n**Boss:**\n\n**Strategy:**\n- Learn attack patterns\n- Dodge mechanics\n- Use food buffs if needed\n- Burst rotations must be optimized\n\n## Energy Management\n\n1. Use Favonius weapons on supports\n2. Build enough Energy Recharge\n3. Catch particles with the character who needs energy\n4. Use batteries (same element energy generators)\n\n## Common Mistakes\n\n- Wasting bursts on low HP enemies\n- Not dodging attack patterns\n- Poor energy management\n- Not using food buffs\n- Giving up after one try\n\n## Recommended Buff Foods\n\n- ATK Food: Adeptus' Temptation\n- Stamina Food: Northern Smoked Chicken\n- DEF Food: Jewelry Soup\n\n## Conclusion\n\nSpiral Abyss is about practice and pattern recognition. Study enemy movesets, optimize rotations, and don't be discouraged by failures!"
+  }
+]
