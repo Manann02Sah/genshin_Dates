@@ -4,7 +4,15 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Clock } from "lucide-react";
 import { Guide } from "@/lib/data";
-import { format } from "date-fns";
+
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  });
+};
 
 interface GuideCardProps {
   guide: Guide;
@@ -44,7 +52,7 @@ export function GuideCard({ guide }: GuideCardProps) {
             </div>
             <div className="flex items-center gap-1">
               <Calendar className="w-3 h-3" />
-              <span>{format(new Date(guide.updatedAt), "MMM d, yyyy")}</span>
+              <span>{formatDate(guide.updatedAt)}</span>
             </div>
           </div>
           {guide.tags && guide.tags.length > 0 && (
