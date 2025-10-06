@@ -4,8 +4,16 @@ import { getAllGuides, getGuideBySlug } from "@/lib/data";
 import { Badge } from "@/components/ui/badge";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { Calendar, Clock, User } from "lucide-react";
-import { format } from "date-fns";
 import ReactMarkdown from "react-markdown";
+
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+};
 
 export const revalidate = 3600;
 
@@ -55,7 +63,7 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
             </div>
             <div className="flex items-center gap-1">
               <Calendar className="w-4 h-4" />
-              <span>{format(new Date(guide.updatedAt), "MMMM d, yyyy")}</span>
+              <span>{formatDate(guide.updatedAt)}</span>
             </div>
           </div>
 
