@@ -1,0 +1,187 @@
+[
+  {
+    "slug": "raiden-national",
+    "name": "Raiden National",
+    "description": "One of the strongest and most consistent teams in the game, combining Raiden's burst damage with powerful sub-DPS characters.",
+    "difficulty": "Easy",
+    "rating": 9.5,
+    "characters": [
+      {
+        "slug": "raiden-shogun",
+        "role": "Main DPS / Battery"
+      },
+      {
+        "slug": "xiangling",
+        "role": "Sub DPS"
+      },
+      {
+        "slug": "xingqiu",
+        "role": "Sub DPS / Hydro Application"
+      },
+      {
+        "slug": "bennett",
+        "role": "Support / Healer / Buffer"
+      }
+    ],
+    "rotation": "Bennett EQ → Xingqiu EQE → Raiden E → Xiangling EQ → Raiden Q (Normal Attacks)",
+    "strengths": [
+      "High consistent damage",
+      "Easy to play",
+      "Works in all content",
+      "Solves energy issues"
+    ],
+    "weaknesses": [
+      "Requires Bennett",
+      "Can struggle against electro-immune enemies"
+    ],
+    "updatedAt": "2025-10-01"
+  },
+  {
+    "slug": "hu-tao-double-geo",
+    "name": "Hu Tao Double Geo",
+    "description": "Maximizes Hu Tao's damage with Geo resonance, shields, and vaporize reactions.",
+    "difficulty": "Medium",
+    "rating": 9.0,
+    "characters": [
+      {
+        "slug": "hu-tao",
+        "role": "Main DPS"
+      },
+      {
+        "slug": "xingqiu",
+        "role": "Sub DPS / Hydro Application"
+      },
+      {
+        "slug": "zhongli",
+        "role": "Shielder / Resistance Shred"
+      },
+      {
+        "slug": "albedo",
+        "role": "Sub DPS / Geo Resonance"
+      }
+    ],
+    "rotation": "Zhongli Hold E → Albedo E → Xingqiu EQE → Hu Tao E (Charged Attacks) → Repeat",
+    "strengths": [
+      "Very high single-target damage",
+      "Comfortable to play with shield",
+      "Geo resonance provides damage bonus"
+    ],
+    "weaknesses": [
+      "Requires Zhongli for optimal play",
+      "Stamina management needed",
+      "Limited AoE damage"
+    ],
+    "updatedAt": "2025-10-01"
+  },
+  {
+    "slug": "international-childe",
+    "name": "International (Childe)",
+    "description": "High damage team focused on vaporize reactions with excellent AoE capabilities.",
+    "difficulty": "Hard",
+    "rating": 9.0,
+    "characters": [
+      {
+        "slug": "tartaglia",
+        "role": "Main DPS / Enabler"
+      },
+      {
+        "slug": "xiangling",
+        "role": "Sub DPS"
+      },
+      {
+        "slug": "kazuha",
+        "role": "Support / Crowd Control / Buffer"
+      },
+      {
+        "slug": "bennett",
+        "role": "Support / Healer / Buffer"
+      }
+    ],
+    "rotation": "Bennett EQ → Kazuha EQ (Pyro Swirl) → Xiangling EQ → Childe E (Melee Stance)",
+    "strengths": [
+      "Exceptional AoE damage",
+      "Flexible rotation timing",
+      "Strong against grouped enemies"
+    ],
+    "weaknesses": [
+      "Complex rotation",
+      "Requires good energy management",
+      "Childe needs proper cooldown management"
+    ],
+    "updatedAt": "2025-10-01"
+  },
+  {
+    "slug": "morgana",
+    "name": "Morgana (Freeze Team)",
+    "description": "Classic freeze team with permanent crowd control and high damage output.",
+    "difficulty": "Medium",
+    "rating": 8.5,
+    "characters": [
+      {
+        "slug": "ganyu",
+        "role": "Main DPS"
+      },
+      {
+        "slug": "mona",
+        "role": "Sub DPS / Omen Buffer"
+      },
+      {
+        "slug": "venti",
+        "role": "Crowd Control / Battery"
+      },
+      {
+        "slug": "diona",
+        "role": "Healer / Shielder / Cryo Resonance"
+      }
+    ],
+    "rotation": "Venti EQ → Diona EQ → Mona QE → Ganyu Charged Attacks",
+    "strengths": [
+      "Perma-freeze keeps enemies locked down",
+      "High AoE damage",
+      "Safe to play"
+    ],
+    "weaknesses": [
+      "Struggles against freeze-immune enemies",
+      "Less effective against bosses",
+      "Requires specific 5-star characters"
+    ],
+    "updatedAt": "2025-10-01"
+  },
+  {
+    "slug": "itto-mono-geo",
+    "name": "Itto Mono Geo",
+    "description": "Geo-focused team that maximizes Itto's burst damage with Geo resonance and buffs.",
+    "difficulty": "Easy",
+    "rating": 8.0,
+    "characters": [
+      {
+        "slug": "arataki-itto",
+        "role": "Main DPS"
+      },
+      {
+        "slug": "gorou",
+        "role": "Support / Buffer"
+      },
+      {
+        "slug": "zhongli",
+        "role": "Shielder / Resistance Shred"
+      },
+      {
+        "slug": "albedo",
+        "role": "Sub DPS / Battery"
+      }
+    ],
+    "rotation": "Zhongli Hold E → Albedo E → Gorou EQ → Itto EQ (Normal Attack String)",
+    "strengths": [
+      "Independent of elemental reactions",
+      "Very comfortable with shields",
+      "Strong against all enemy types"
+    ],
+    "weaknesses": [
+      "Requires multiple Geo 5-stars",
+      "Lower ceiling than reaction teams",
+      "Gorou is essential"
+    ],
+    "updatedAt": "2025-10-01"
+  }
+]
